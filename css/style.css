@@ -1,0 +1,35 @@
+.background{
+    position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;  
+}
+
+
+/* Knapp som man kan trykke på er hentet fra https://www.w3schools.com/tags/tag_button.asp */
+.button {
+    border: none;
+    color: white;
+    padding: 10px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+    margin: 4px 2px;
+    cursor: pointer;    
+  }
+
+  nav ul{
+    display: block ruby;
+    list-style-type: none
+  }
+
+  nav li{
+    margin: 1rem 1rem 1rem 1rem;
+}
+
+  
+.flex_right{
+    display: flex;
+    justify-content: end;
+}
