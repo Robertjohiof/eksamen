@@ -25,7 +25,7 @@
 }
 
 
-/* Knapp som man kan trykke på er hentet fra https://www.w3schools.com/tags/tag_button.asp */
+/* Knapp som man kan trykke på fra https://www.w3schools.com/tags/tag_button.asp */
 .button {
     border: none;
     color: rgb(0, 0, 0);
@@ -44,7 +44,7 @@ nav ul{
     list-style-type: none    
 }
 
-/* Hover effekt hentet fra https://www.youtube.com/watch?v=IlRn1a38bec&ab_channel=AMWEBTECH */
+/* Transition fra https://www.youtube.com/watch?v=IlRn1a38bec&ab_channel=AMWEBTECH */
 .flex_right ul a{
     text-decoration: none;
     color: black;
@@ -53,7 +53,7 @@ nav ul{
     transition: color .4s;
 }
 
-/* Hover effekt hentet fra https://www.youtube.com/watch?v=IlRn1a38bec&ab_channel=AMWEBTECH */
+/* Hover effekt fra https://www.w3schools.com/cssref/sel_hover.php */
 .flex_right ul a:hover{
     color: crimson;
 }
