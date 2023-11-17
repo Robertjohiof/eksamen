@@ -5,3 +5,4 @@ Antagelser og tolkninger:
 
 
 Kilder til bilder og annet:
+Knapp som man kan trykke på er hentet fra https://www.w3schools.com/tags/tag_button.asp

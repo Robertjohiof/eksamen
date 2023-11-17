@@ -1,15 +1,33 @@
-.background{
-    position: fixed;
-  right: 0;
-  bottom: 0;
-  min-width: 100%;  
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header{
+    width: 100%;
+    height: 250px;
+    position: relative;
+    top: 0;
+    left: 0;    
+}
+
+
+.background_mp4{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    left: 0;
+    object-fit: cover;    
 }
 
 
 /* Knapp som man kan trykke på er hentet fra https://www.w3schools.com/tags/tag_button.asp */
 .button {
     border: none;
-    color: white;
+    color: rgb(0, 0, 0);
     padding: 10px 25px;
     text-align: center;
     text-decoration: none;
@@ -17,19 +35,37 @@
     font-size: 12px;
     margin: 4px 2px;
     cursor: pointer;    
-  }
+}
 
-  nav ul{
+
+nav ul{
     display: block ruby;
-    list-style-type: none
-  }
+    list-style-type: none    
+}
 
-  nav li{
-    margin: 1rem 1rem 1rem 1rem;
+/* Hover effekt hentet fra https://www.youtube.com/watch?v=IlRn1a38bec&ab_channel=AMWEBTECH */
+.flex_right ul a{
+    text-decoration: none;
+    color: black;
+    margin: 0 15px;
+    font-size: 18px;
+    transition: color .4s;
+}
+
+/* Hover effekt hentet fra https://www.youtube.com/watch?v=IlRn1a38bec&ab_channel=AMWEBTECH */
+.flex_right ul a:hover{
+    color: crimson;
+}
+
+.header_align{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;    
+    align-items: center;
 }
 
   
-.flex_right{
-    display: flex;
-    justify-content: end;
-}
+/* .flex_right{ */
+    /* display: flex; */
+    /* justify-content: end; */
+/* } */
