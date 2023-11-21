@@ -5,10 +5,18 @@ Antagelser og tolkninger:
 
 
 Kilder til bilder og annet:
-Knapp som man kan trykke på er hentet fra https://www.w3schools.com/tags/tag_button.asp
 
-mp4 filen fungerer og lever kun i header pga: https://www.youtube.com/watch?v=IlRn1a38bec&ab_channel=AMWEBTECH
-Fikk også hjelp med css til mp4 fra: https://www.youtube.com/watch?v=IlRn1a38bec&ab_channel=AMWEBTECH
 
-Header bilde hentet fra: https://www.pexels.com/photo/green-mountains-889930/
+-Knapp som man kan trykke på er hentet fra: https://www.w3schools.com/tags/tag_button.asp
+
+-mp4 filen fungerer og lever kun i seksjonen pga: https://www.youtube.com/watch?v=IlRn1a38bec&ab_channel=AMWEBTECH
+-Fikk også hjelp med css til mp4 fra: https://www.youtube.com/watch?v=IlRn1a38bec&ab_channel=AMWEBTECH
+
+-Header bilde hentet fra: https://www.pexels.com/photo/green-mountains-889930/
+
+-Ikoner:
+    https://fontawesome.com/icons/code?f=classic&s=solid
+    https://fontawesome.com/icons/users?f=classic&s=solid
+    https://fontawesome.com/icons/cloud-arrow-up?f=classic&s=solid
+    https://fontawesome.com/icons/wifi?f=classic&s=solid
 
