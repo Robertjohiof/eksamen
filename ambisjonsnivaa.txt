@@ -20,6 +20,10 @@ Kilder til bilder og annet:
     https://fontawesome.com/icons/users?f=classic&s=solid
     https://fontawesome.com/icons/cloud-arrow-up?f=classic&s=solid
     https://fontawesome.com/icons/wifi?f=classic&s=solid
+    https://fontawesome.com/icons/location-pin?f=classic&s=solid
+    https://fontawesome.com/icons/phone?f=classic&s=solid
+    https://fontawesome.com/icons/envelope?f=classic&s=solid
+    
 
 
 Contact section har meste av koden fra:
