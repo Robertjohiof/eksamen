@@ -47,7 +47,7 @@
                 <p>
                     Lorem ipsum dolor sit amet consectetur adipiscing elit phasellus suspendisse ullamcorper odio diam, mattis nascetur luctus pulvinar egestas tempus lacinia sodales montes ante tellus magna, sociosqu vitae pharetra scelerisque bibendum mauris posuere aptent nisi primis lacus. Facilisis ante volutpat varius consequat tristique nulla litora, massa metus lacinia inceptos ac ullamcorper lobortis, viverra mus faucibus nostra sollicitudin rhoncus. Tristique himenaeos cras ad in nisl quam at, hac quisque convallis viverra eleifend curae vivamus, penatibus sagittis nibh tempor nullam dictumst.
                 </p>
-                <a href="#">
+                <a href="#contact">
                     <button class="button" type="button">Get in touch with us</button>
                 </a>
             </article>
@@ -85,7 +85,8 @@
             <img src="img/logo3.png" alt="company logo number three">
         </section>
 
-        <section>
+        <!-- "contact section har hentet mye fra fra Oblig4 prosjekt som er igjen hentet fra: (https://www.youtube.com/watch?v=lLdzlLL33G8&ab_channel=GreatStack)" -->
+        <section id="contact">
             <h2>Contact us</h2>
             <article>
                 <h3>Send us a message</h3>
@@ -94,6 +95,12 @@
                     <input type="text" id="name" name="name" placeholder="Ola Nordman.."><br>
                     <label for="lname">Subject:</label><br>
                     <input type="text" id="subject" name="subject" placeholder="Branding..">
+
+                    <!-- Stort tekst område har kode fra: https://www.w3schools.com/tags/tag_textarea.asp -->
+                    <p><label for="Message">Message</label></p>
+                    <textarea id="Message" name="Message" rows="4" cols="50"></textarea>
+                    <br>
+                    <button class="button" type="submit">Send message</button>
                   </form> 
             </article>
         </section>

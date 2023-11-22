@@ -9,8 +9,9 @@ Kilder til bilder og annet:
 
 -Knapp som man kan trykke på er hentet fra: https://www.w3schools.com/tags/tag_button.asp
 
--mp4 filen fungerer og lever kun i seksjonen pga: https://www.youtube.com/watch?v=IlRn1a38bec&ab_channel=AMWEBTECH
+-mp4 filen: https://www.youtube.com/watch?v=IlRn1a38bec&ab_channel=AMWEBTECH
 -Fikk også hjelp med css til mp4 fra: https://www.youtube.com/watch?v=IlRn1a38bec&ab_channel=AMWEBTECH
+  -Her har position: relative hjulpet med å plassere riktig uten at elementer påvirker hverandre. Videoen/bildet har fått position: absolute, slik at vi kan ha ovelappende elementer på hverandre.
 
 -Header bilde hentet fra: https://www.pexels.com/photo/green-mountains-889930/
 
@@ -20,3 +21,10 @@ Kilder til bilder og annet:
     https://fontawesome.com/icons/cloud-arrow-up?f=classic&s=solid
     https://fontawesome.com/icons/wifi?f=classic&s=solid
 
+
+Contact section har meste av koden fra:
+ -Oblig4 prosjekt som er igjen hentet fra: (https://www.youtube.com/watch?v=lLdzlLL33G8&ab_channel=GreatStack)"
+
+ Det store tekst området fikk jeg hjelp med fra: 
+ -https://www.w3schools.com/tags/tag_textarea.asp
+  -Her får jeg spesifisert hvor stort området skal være med cols og rows. Har fått gitt det en label som asossierer det med tekst feltet.
