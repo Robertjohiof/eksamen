@@ -4,6 +4,46 @@
     box-sizing: border-box;
 }
 
+header{
+
+}
+
+
+
+.h1_center{
+    text-align: center;    
+}
+
+
+nav ul{
+    display: block ruby;
+    list-style-type: none    
+}
+
+/* Transition fra https://www.youtube.com/watch?v=IlRn1a38bec&ab_channel=AMWEBTECH */
+.flex_right ul li a{     
+    text-decoration: underline #fff;   
+    color: rgb(0, 0, 0);
+    margin: 0 15px;
+    font-size: 18px;      
+}
+
+.current{
+    border-bottom: 1px solid yellow;
+    padding-bottom: 15px;
+}
+
+.header_align{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;    
+    align-items: center;
+}
+
+.header_align img{
+    max-width: 115px;
+}
+
 .video{
     width: 100%;
     height: 200px;
@@ -24,10 +64,6 @@
     object-fit: cover;    
 }
 
-.h1_center{
-    text-align: center;    
-}
-
 
 /* Knapp som man kan trykke på fra https://www.w3schools.com/tags/tag_button.asp */
 .button {
@@ -40,37 +76,6 @@
     font-size: 12px;
     margin: 4px 2px;
     cursor: pointer;    
-}
-
-
-nav ul{
-    display: block ruby;
-    list-style-type: none    
-}
-
-/* Transition fra https://www.youtube.com/watch?v=IlRn1a38bec&ab_channel=AMWEBTECH */
-.flex_right ul a{
-    text-decoration: none;
-    color: black;
-    margin: 0 15px;
-    font-size: 18px;
-    transition: color .4s;
-}
-
-/* Hover effekt fra https://www.w3schools.com/cssref/sel_hover.php */
-.flex_right ul a:hover{
-    color: crimson;
-}
-
-.header_align{
-    width: 100%;
-    display: flex;
-    justify-content: space-between;    
-    align-items: center;
-}
-
-.header_align img{
-    max-width: 115px;
 }
 
   
