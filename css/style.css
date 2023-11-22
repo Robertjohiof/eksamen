@@ -69,6 +69,10 @@ nav ul{
     align-items: center;
 }
 
+.header_align img{
+    max-width: 115px;
+}
+
   
 .explore a{
     color: black;
@@ -77,4 +81,17 @@ nav ul{
     border-style: solid;
     border-width: thin;
     border-color: black;
+}
+
+
+
+
+
+
+
+
+
+.flex{
+    display: flex;
+    gap: 15px;
 }
