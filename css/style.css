@@ -10,6 +10,7 @@ html{
 
 header{
 
+
 }
 
 
@@ -19,17 +20,20 @@ header{
 }
 
 
-nav ul{
-    display: block ruby;
+nav ul{    
     list-style-type: none    
 }
 
-/* Transition fra https://www.youtube.com/watch?v=IlRn1a38bec&ab_channel=AMWEBTECH */
+
 .flex_right ul li a{     
     text-decoration: underline #fff;   
     color: rgb(0, 0, 0);
-    margin: 0 15px;
+    margin: 0 5px;
     font-size: 18px;      
+}
+
+.flex_right ul li{
+    margin: 0.5rem 0 0 0;
 }
 
 .current{
@@ -39,14 +43,14 @@ nav ul{
 }
 
 .header_align{
-    width: 100%;
-    display: flex;
-    justify-content: space-between;    
-    align-items: center;
+    width: 100%;    
+    text-align: center;
 }
 
 .header_align img{
-    max-width: 115px;
+    max-width: 130px;
+    margin: 2px 0 2px 2px;
+    padding: 5px 10px;
 }
 
 .video{
@@ -106,4 +110,22 @@ nav ul{
 .flex{
     display: flex;
     gap: 15px;
+}
+
+
+
+
+
+
+@media screen and (min-width: 760px) {
+    nav ul{
+        display: block ruby;            
+    }
+    
+    .header_align{
+        width: 100%;
+        display: flex;
+        justify-content: space-between;    
+        align-items: center;        
+    }
 }
