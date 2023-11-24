@@ -26,16 +26,19 @@ nav ul{
     margin: 0.5rem 0 0 0;
 }
 
+
 .current{
-    border-bottom: 3px solid yellow;
+    border-bottom: 3px solid #e6bd43;
     padding-bottom: 1px;
     font-weight: 800;
 }
+
 
 .header_align{
     width: 100%;
     text-align: center;
 }
+
 
 .header_align img{
     max-width: 130px;
@@ -88,6 +91,20 @@ nav ul{
     margin: 4px 2px;
     cursor: pointer;
     background-color: #e6bd43;
+}
+
+.button:hover{
+    border: none;
+    color: #e6bd43;
+    padding: 10px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+    font-weight: 800;
+    margin: 4px 2px;
+    cursor: pointer;
+    background-color: #000;
 }
 
 
@@ -160,6 +177,27 @@ nav ul{
 
 
 
+
+
+
+
+
+
+
+footer{
+    background-color: #252525;
+    display: flex;
+    justify-content: space-between;
+    color: #fff;
+}
+
+footer section a{    
+    color: #fff;
+    font-size: 2rem;
+    margin: 0.5rem;
+}
+
+
 @media screen and (max-width: 799px){
     .section_one_two{
         /* margin: 1.5rem auto; */
@@ -197,7 +235,7 @@ nav ul{
 
     .header_align img{
         max-width: 130px;
-        margin: 2px 0 2px 2px;
+        margin: 1rem 1rem;
         padding: 5px 10px;
     }
 
