@@ -102,7 +102,6 @@ nav ul{
 
 .explore{
     margin: 0 2rem 0 2rem;
-
     display: grid;
     grid-template-columns: 1fr;
     justify-content: center;
@@ -110,7 +109,10 @@ nav ul{
     
 }
 
-.explore h2{    
+
+/* Jeg får h2 tittelen til å ta hele bredden med: grid-column: 1 / -1;...fra:  https://css-tricks.com/almanac/properties/g/grid-column/ */
+.explore h2{ 
+    grid-column: 1 / -1;   
     padding: 2.5rem 0 3rem 0;
     border-bottom: 3px solid #e6bd43;
     padding-bottom: 5px;
@@ -140,17 +142,17 @@ nav ul{
     align-items: center;
     text-align: center;
 
-    margin: 2rem 0 5rem 0;
+    margin: 2rem 1rem 2rem 0;
 
-    
+    min-width: 200px;
+    max-width: 692px;
 }
 
 .explore article img{
-    flex-shrink: 1;
+    /* flex-shrink: 1; */
     flex-grow: 1;
     width: 100%;
-    min-width: 200px;
-    max-width: 692px;
+    
 }
 
 .center_margin{
@@ -182,6 +184,8 @@ nav ul{
     margin: 0 0 5rem 0;
 }
 
+
+/* Jeg får h2 tittelen til å ta hele bredden med: grid-column: 1 / -1;...fra:  https://css-tricks.com/almanac/properties/g/grid-column/ */
 .our_s h2{
     grid-column: 1 / -1;
     text-align: center;
@@ -302,6 +306,20 @@ footer section a{
         padding: 9rem;
         font-size: 45px;
         font-weight: bolder;    
+    }
+
+    .explore{
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    .align_center{
+        display: flex;
+        margin: 2rem 13rem;
+    }
+
+    #development article{           
+        min-width: 300px;     
+        max-width: 400px;
     }
 
     
