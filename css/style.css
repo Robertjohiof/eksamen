@@ -8,6 +8,11 @@ html{
     font-family: 'Roboto', sans-serif;
 }
 
+section{
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
 
 
 nav ul{
@@ -77,12 +82,66 @@ nav ul{
     object-fit: cover;
 }
 
+.picture{
+    width: 100%;
+    height: 350px;
+    position: relative;
+    top: 0;
+    left: 0;
+    text-align: center;
+}
+
 
 .picture h1{
-    padding: 9rem;
+    padding: 9rem 0 9rem 0;
     font-size: 45px;
     font-weight: bolder;
 }
+
+.explore, .explore_label{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: start;
+    align-items: center;
+    max-width: 1300px;
+    gap: 15px;
+    margin: auto;
+}
+
+.explore_label a{    
+    color: black;
+    margin: 2rem 0 0;
+    padding: 0.2rem;
+    text-decoration: none;
+    border-style: solid;
+    border-width: thin;
+    border-color: black;
+}
+
+.explore h2, .explore_label h2{ 
+    width: 100%;
+    padding: 2.5rem 0 3rem 0;
+    border-bottom: 3px solid #e6bd43;
+    padding-bottom: 5px;
+}
+
+.explore article{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: start;
+    max-width: 692px;
+    flex-grow: 1;
+}
+
+.explore img{
+    width: 100%;
+}
+
+.explore p{
+    margin: 0 0 1rem 0;
+}
+
 
 
 /* Knapp som man kan trykke på fra https://www.w3schools.com/tags/tag_button.asp */
@@ -100,60 +159,16 @@ nav ul{
     background-color: #e6bd43;
 }
 
-.explore{
-    margin: 0 2rem 0 2rem;
-    display: grid;
-    grid-template-columns: 1fr;
-    justify-content: center;
-    align-items: center;
-    
-}
-
-
-/* Jeg får h2 tittelen til å ta hele bredden med: grid-column: 1 / -1;...fra:  https://css-tricks.com/almanac/properties/g/grid-column/ */
-.explore h2{ 
-    grid-column: 1 / -1;   
-    padding: 2.5rem 0 3rem 0;
-    border-bottom: 3px solid #e6bd43;
-    padding-bottom: 5px;
-    
-}
 
 
 
-.explore a{    
-    color: black;
-    margin: 2rem 0 0;
-    padding: 0.2rem;
-    text-decoration: none;
-    border-style: solid;
-    border-width: thin;
-    border-color: black;
-}
 
-.explore_div{
-    margin: 2.5rem 0 0;
-}
 
-.explore article{
-    
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
 
-    margin: 2rem 1rem 2rem 0;
 
-    min-width: 200px;
-    max-width: 692px;
-}
 
-.explore article img{
-    /* flex-shrink: 1; */
-    flex-grow: 1;
-    width: 100%;
-    
-}
+
+
 
 .center_margin{
     text-align: center;
@@ -303,30 +318,21 @@ footer section a{
     }
 
     .picture h1{
-        padding: 9rem;
+        
         font-size: 45px;
         font-weight: bolder;    
     }
 
-    .explore{
-        grid-template-columns: 1fr 1fr 1fr;
-    }
-
-    .align_center{
-        display: flex;
-        margin: 2rem 13rem;
-    }
-
-    #development article{           
-        min-width: 300px;     
-        max-width: 400px;
-    }
-
-    
+        
 
     .our_s{        
         grid-template-columns: 1fr 1fr 1fr 1fr;
 
+    }
+
+
+    .explore{
+        justify-content: start;
     }
 
 
