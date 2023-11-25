@@ -102,6 +102,12 @@ nav ul{
 
 .explore{
     margin: 0 2rem 0 2rem;
+
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-content: center;
+    align-items: center;
+    
 }
 
 .explore h2{    
@@ -125,6 +131,26 @@ nav ul{
 
 .explore_div{
     margin: 2.5rem 0 0;
+}
+
+.explore article{
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+
+    margin: 2rem 0 5rem 0;
+
+    
+}
+
+.explore article img{
+    flex-shrink: 1;
+    flex-grow: 1;
+    width: 100%;
+    min-width: 200px;
+    max-width: 692px;
 }
 
 .center_margin{
