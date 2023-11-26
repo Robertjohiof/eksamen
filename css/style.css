@@ -304,11 +304,19 @@ nav ul{
 }
 
 #contact h3{
-    margin: 3rem 0 1rem 0;
+    margin: 2rem 0 1rem 0;
 }
 
 #contact input{
     padding: 8px;
+    width: 430px;
+    max-width: 100%;
+    margin: 0 3rem 0 0;
+}
+
+#contact textarea{
+    width: 430px;
+    max-width: 100%;
 }
 
 
@@ -323,12 +331,13 @@ nav ul{
 
 footer{
     background-color: #252525;
-    display: flex;
+    display: inline-block;
     justify-content: space-between;
     color: #fff;
 }
 
 footer section a{
+    display: inline-block;
     color: #fff;
     font-size: 2rem;
     margin: 0.5rem;
@@ -462,6 +471,10 @@ footer section a{
         grid-column: 1 / -1;
         text-align: center;
 
+    }
+
+    .info{
+        margin: 0 0 5.5rem 0;
     }
 
 

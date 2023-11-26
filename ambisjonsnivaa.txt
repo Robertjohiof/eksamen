@@ -29,9 +29,14 @@ Kilder til bilder og annet:
 
 
 
-Contact section har meste av koden fra:
- -Oblig4 prosjekt som er igjen hentet fra: (https://www.youtube.com/watch?v=lLdzlLL33G8&ab_channel=GreatStack)"
+-Contact section har meste av koden fra:
+  -Oblig4 prosjekt som er igjen hentet fra: (https://www.youtube.com/watch?v=lLdzlLL33G8&ab_channel=GreatStack)"
 
- Det store tekst området fikk jeg hjelp med fra: 
- -https://www.w3schools.com/tags/tag_textarea.asp
-  -Her får jeg spesifisert hvor stort området skal være med cols og rows. Har fått gitt det en label som asossierer det med tekst feltet.
+ -Det store tekst området fikk jeg hjelp med fra: 
+  -https://www.w3schools.com/tags/tag_textarea.asp
+  -Her får jeg spesifisert hvor stort området skal
+    være med cols og rows. Har fått gitt det en label som asossierer det med tekst feltet.
+
+
+-Inline css på lengde i input feltene: https://www.w3schools.com/tags/att_input_size.asp
+

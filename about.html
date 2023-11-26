@@ -103,11 +103,12 @@
             <h2>Contact us</h2>
             <article>
                 <h3>Send us a message</h3>
+                    <!-- inline css på lengde i input feltene: https://www.w3schools.com/tags/att_input_size.asp -->
                 <form>
                     <label for="name">Name:</label><br>
-                    <input type="text" id="name" name="name" placeholder="Ola Nordman.." size="55"><br>
-                    <label for="lname">Subject:</label><br>
-                    <input type="text" id="subject" name="subject" placeholder="Branding.." size="55">
+                    <input type="text" id="name" name="name" placeholder="Ola Nordman.."><br>
+                    <label for="subject">Subject:</label><br>
+                    <input type="text" id="subject" name="subject" placeholder="Branding..">                    
 
                     <!-- Stort tekst område har kode fra: https://www.w3schools.com/tags/tag_textarea.asp -->
                     <p><label for="Message">Message</label></p>
@@ -116,7 +117,7 @@
                     <button class="button" type="submit">Send message</button>
                   </form> 
             </article>
-            <article>
+            <article class="info">
                 <h3>Contact information</h3>
                 <p>
                     Lorem ipsum dolor sit amet consectetur adipiscing elit gravida justo euismod, augue aliquet interdum leo quis a laoreet convallis. Curabitur tellus elementum conubia fringilla, penatibus semper dictum, cursus malesuada tempor.
