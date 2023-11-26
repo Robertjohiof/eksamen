@@ -51,6 +51,10 @@ nav ul{
     padding: 5px 10px;
 }
 
+.h1_center{
+    font-size: 32px;
+}
+
 .video{
     width: 100%;
     height: 400px;
@@ -61,7 +65,7 @@ nav ul{
 }
 
 .video h1{
-    padding: 28px;
+    padding: 28px 0 15px 0;
     margin: 0 0 1rem 0;
 
 }
@@ -94,13 +98,11 @@ nav ul{
 
 .picture h1{
     padding: 9rem 0 9rem 0;
-    font-size: 45px;
+    font-size: 40px;
     font-weight: bolder;
 }
 
-.about_placement{
-    display: flex;
-}
+
 
 
 .about_picture{    
@@ -109,10 +111,10 @@ nav ul{
     position: relative;
     top: 0;
     left: 0;
-    text-align: initial;
+    text-align: center;
     display: flex;    
     align-items: center;
-    padding: 0 0 0 50%;
+    padding: 0 2rem 0 2rem;
 
 }
 
@@ -127,7 +129,7 @@ nav ul{
     background-color: #b5b5b5;
     opacity: 80%;
     padding: 0 1rem 1rem 1rem;
-    margin: 0 3rem 0 0;
+    
 }
 
 
@@ -245,8 +247,29 @@ nav ul{
     flex-direction: column;
     align-items: center;
     text-align: center;
-    margin: 0.5rem 0;  
+    margin: 0.5rem 0.5rem;  
+    gap: 15px;
 }
+
+
+.trio{
+    background-color: #e6bd43;
+    text-align: center;
+    padding: 2rem;   
+    
+}
+
+.trio h2{
+    font-size: 35px;
+    margin: 0 0 1.5rem 0;
+       
+}
+
+.trio a{    
+    margin: 25px;   
+    display: inline-block; 
+}
+
 
 .news{
     background-color: #b5b5b5;
@@ -341,25 +364,37 @@ footer section a{
 
 
     .video h1{
-        padding: 38px;
-        margin: 0 0 2rem 0;
+        padding: 75px 0 45px 0;
+        margin: 0 0 -20px 0;
 
     }
 
 
     .video p{
-        margin: 0 5rem 4rem;
-    }
-
-
-    .picture h1{
-        
-        font-size: 45px;
-        font-weight: bolder;    
+        margin: 0 5rem 2rem;
     }
 
 
     
+
+
+    .about_picture{    
+        width: 100%;
+        height: 410px;
+        position: relative;
+        top: 0;
+        left: 0;
+        text-align: initial;
+        display: flex;    
+        align-items: center;
+        padding: 0 0 0 60%;
+    
+    }
+
+    .about_frame{
+        padding: 0 1rem 1rem 1rem;
+        margin: 0 3rem 0 0;
+    }
 
         
 
