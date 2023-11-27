@@ -38,10 +38,12 @@
                         <a href="about.html">About</a>
                     </li>
                     <!-- Knapp som man kan trykke på fra https://www.w3schools.com/tags/tag_button.asp -->
+                    <!-- Fikk feil på validator og måtte fikse at knappen ikke hadde a tag rundt seg: https://stackoverflow.com/questions/24837102/the-element-button-must-not-appear-as-a-descendant-of-the-a-element -->
                     <li>
-                        <a href="about.html #contact">
-                            <button class="button" type="button">Contact</button>
-                        </a>
+                        <form style="display: inline" action="about.html#contact" method="get">
+                            <button class="button">Contact</button>
+                        </form>
+                          
                     </li>
                 </ul>
             </nav>
@@ -59,9 +61,9 @@
             <p>
                 There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable.
             </p>
-            <a href="#our_services">
-                <button class="button" type="button">Read more about our services</button>
-            </a>
+            <form style="display: inline" action="#our_services" method="get">
+                <button class="button">Read more about our services</button>
+            </form>            
         </section>
 
         <section class="center_margin">
@@ -78,9 +80,9 @@
                 <p>
                     Lorem ipsum dolor sit amet consectetur adipiscing elit magna per augue aenean, taciti pharetra viverra eu ante sagittis ultrices molestie convallis mauris, dictumst morbi imperdiet fusce arcu sociis vel suspendisse sollicitudin a. Dictum ultricies inceptos faucibus lacus ornare vitae justo at.
                 </p>
-                <a href="about.html">
-                    <button class="button_2" type="button">Read more about us</button>
-                </a>
+                <form style="display: inline" action="about.html" method="get">
+                    <button class="button_2">Read more about us</button>
+                </form>
             </article>
         </section>
 
@@ -119,16 +121,13 @@
         <section class="news">
             <h2>Sign up for our newsletter</h2>
             
-            <form method="post">   
+            <section>   
                 <label for="lab" hidden>Din epost</label>          
-                <input type="email" id="lab" name="email" placeholder="post@mail.com" id="email" required title="søkefelt">
-                <a href="#">
-                    <button class="button" type="button">Sign me up</button>
-                </a>
-            </form>
-            
-            
-        
+                <input type="email" id="lab" name="email" placeholder="post@mail.com" required title="søkefelt">
+                <form style="display: inline" action="mailto:" method="get">
+                    <button class="button">Sign me up</button>
+                </form>                
+            </section>        
         </section>
     </main>
     

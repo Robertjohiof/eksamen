@@ -41,3 +41,8 @@ Kilder til bilder og annet:
 
 -Inline css på lengde i input feltene: https://www.w3schools.com/tags/att_input_size.asp
 
+
+-Validator feil på knapper med a tag, fikk hjelp fra:  https://stackoverflow.com/questions/24837102/the-element-button-must-not-appear-as-a-descendant-of-the-a-element
+
+
+
