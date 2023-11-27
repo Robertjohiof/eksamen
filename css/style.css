@@ -118,6 +118,27 @@ nav ul{
     object-fit: cover;
 }
 
+
+
+
+
+.background_mp4_1{
+    display: none;
+}
+
+
+.background_mp4_2{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    left: 0;
+    object-fit: cover;
+    
+}
+
+
 .picture{
     width: 100%;
     height: 350px;
@@ -451,6 +472,21 @@ footer i{
         max-width: 130px;
         margin: 1rem 1rem;
         padding: 5px 10px;
+    }
+
+    .background_mp4_1{
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        z-index: -1;
+        top: 0;
+        left: 0;
+        object-fit: cover;
+        display: block;
+    }
+
+    .background_mp4_2{
+        display: none;
     }
 
 
