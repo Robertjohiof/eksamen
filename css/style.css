@@ -133,6 +133,22 @@ nav ul{
 }
 
 
+.button_2{    
+    color: rgb(0, 0, 0);
+    padding: 10px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+    font-weight: 800;
+    margin: 4px 2px;
+    cursor: pointer;
+    background-color: #e6bd43;
+    border: 2px;
+    border-style: solid;
+}
+
+
 .explore, .explore_label{
     display: flex;
     flex-wrap: wrap;
@@ -438,6 +454,22 @@ footer section a{
 
     .explore{
         justify-content: start;
+    }
+
+
+    .button_2:hover{
+        border: 2px;
+        border-style: solid;
+        color: #e6bd43;
+        padding: 10px 25px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 12px;
+        font-weight: 800;
+        margin: 4px 2px;
+        cursor: pointer;
+        background-color: #000;
     }
 
 
