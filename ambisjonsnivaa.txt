@@ -26,6 +26,7 @@ Kilder til bilder og annet:
     https://fontawesome.com/icons/facebook?f=brands&s=solid
     https://fontawesome.com/icons/instagram?f=brands&s=solid
     https://fontawesome.com/icons/linkedin?f=brands&s=solid
+    https://fontawesome.com/icons/circle-up?f=classic&s=solid
 
 
 

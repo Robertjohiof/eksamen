@@ -8,6 +8,35 @@ html{
     font-family: 'Roboto', sans-serif;
 }
 
+.back_to_top{    
+    position: absolute;
+    margin-bottom: 50px;
+    right: 50px;    
+    height: 100%;   
+    
+  }
+
+.back_to_top:before{
+    content: '';
+    display: block;
+    height: 100vh;
+    pointer-events: none;    
+}
+
+
+.back_to_top a{    
+    position: fixed;
+    bottom: 15vh;
+    cursor: pointer;            
+}
+
+
+.back_to_top i{
+    font-size: 45px;
+    color: #000;         
+}
+
+
 section{
     padding-left: 15px;
     padding-right: 15px;
@@ -155,7 +184,7 @@ nav ul{
     justify-content: start;
     align-items: center;
     max-width: 1300px;
-    gap: 15px;
+    gap: 32px;
     margin: auto;
 }
 
@@ -274,6 +303,10 @@ nav ul{
     gap: 15px;
 }
 
+.our_s i{
+    font-size: 24px;
+}
+
 
 .trio{
     background-color: #e6bd43;
@@ -290,7 +323,13 @@ nav ul{
 
 .trio a{
     margin: 25px;
-    display: inline-block;
+    display: inline-block;    
+}
+
+.trio img{
+    width: 100%;
+    max-width: 150px;
+    min-width: 5px;
 }
 
 
@@ -363,6 +402,10 @@ footer section a{
     color: #fff;
     font-size: 2rem;
     margin: 0.5rem;
+}
+
+footer i{
+    font-size: 34px;
 }
 
 
