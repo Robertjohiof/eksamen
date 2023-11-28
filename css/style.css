@@ -569,17 +569,8 @@ footer i{
     }
 
 
-    .button:hover{
-        border: none;
-        color: #e6bd43;
-        padding: 10px 25px;
-        text-align: center;
-        text-decoration: none;
-        display: inline-block;
-        font-size: 12px;
-        font-weight: 800;
-        margin: 4px 2px;
-        cursor: pointer;
+    .button:hover{        
+        color: #e6bd43;        
         background-color: #000;
     }
 
