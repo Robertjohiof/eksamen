@@ -1,6 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <meta name="author" content="Robert Johannessen">
+    <meta name="description" content="The about us page full of usefull information and links">          
+    <meta name="keywords" content="links, map, about us, services, clients, contact">
     <meta property="og:title" content="About us, is all about us, our services, where you can find us and so much more" />
     <meta property="og:url" content="https://itstud.hiof.no/~robertjo/eksamen/about.html" />
     <meta property="og:image" content="https://itstud.hiof.no/~robertjo/eksamen/img/logo1" />
@@ -31,15 +34,18 @@
             </a>
 
             <nav class="flex_right">
-                <ul>
-                    <li>
-                        <a href="index.html" aria-label="link to the home page">Home</a>
+                <ul itemscope itemtype="http://schema.org/BreadcrumbList">
+                    <li itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem"></li>>
+                        <a itemprop="item" href="index.html" aria-label="link to the home page"><span itemprop="name">Home</span></a>
+                        <meta itemprop="position" content="1" />
                     </li>
-                    <li>
-                        <a href="products.html" aria-label="link to the products page">Products</a>
+                    <li itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem"></li>>
+                        <a itemprop="item" href="products.html" aria-label="link to the products page"><span itemprop="name">Products</span></a>
+                        <meta itemprop="position" content="2" />
                     </li>
-                    <li>
-                        <a href="about.html" class="current" aria-current="page">About</a>
+                    <li itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem"></li>>
+                        <a itemprop="item" href="about.html" class="current" aria-current="page"><span itemprop="name">About</span></a>
+                        <meta itemprop="position" content="3" />
                     </li>
                     <!-- Knapp som man kan trykke på fra https://www.w3schools.com/tags/tag_button.asp -->
                     <li>
@@ -53,7 +59,7 @@
         
         <!-- Bilde er hentet fra: https://www.pexels.com/photo/green-mountains-889930/ -->        
         <section  class="about_picture">
-            <img class="background_mp4" src="img/calm_mountains.jpg" alt="Background picture for header with mountains">
+            <img class="background_mp4" src="img/calm_mountains.jpg" alt="Background picture for header with mountains" itemprop="image">
             <article class="about_frame">
                     <p>Company name</p>
                     <h1>About Our Company</h1>
@@ -128,21 +134,21 @@
                     <button class="button" type="submit" role="button">Send message</button>
                   </form> 
             </article>
-            <article class="info" >
+            <article class="info" itemscope itemtype="https://schema.org/Organization">
                 <h3>Contact information</h3>
                 <p>
-                    Lorem ipsum dolor sit amet consectetur adipiscing elit gravida justo euismod, augue aliquet interdum leo quis a laoreet convallis. Curabitur tellus elementum conubia fringilla, penatibus semper dictum, cursus malesuada tempor.
+                    <span itemprop="name">Lorem ipsum</span> dolor sit amet consectetur adipiscing elit gravida justo euismod, augue aliquet interdum leo quis a laoreet convallis. Curabitur tellus elementum conubia fringilla, penatibus semper dictum, cursus malesuada tempor.
                 </p>
                 <!-- ikoner fra fontawesome -->
-                <div class="flex">
+                <div class="flex" itemprop="address" itemscope itemtype="https://schema.org/PostalAddress">
                     <i class="fa-solid fa-location-pin"></i>
-                    <p>B R A Veien 4, 1757 Halden</p>
+                    <p itemprop="streetAddress">B R A Veien 4, <span itemprop="postalCode">1757</span><span itemprop="addressRegion">Halden</span></p>
                 </div>
                 <br>
-                <div class="flex">
+                <div class="flex" >
                     <i class="fa-solid fa-phone"></i>
                     <p>
-                        69 60 80 00
+                        <span itemprop="telephone"> 69 60 80 00 </span>
                     </p>
                 </div>
                 <br>
@@ -151,16 +157,18 @@
                     <i class="fa-solid fa-envelope"></i>
                     <a href="mailto:postmottak@hiof.no">
                         <p>
-                            postmottak@hiof.no
+                            <span itemprop="email">postmottak@hiof.no</span>
                         </p>
                     </a>
                 </div>
             </article>
         </section>
         
-        <section class="map" aria-label="map">
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2047.1882765496962!2d11.350223011666714!3d59.129250226914905!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x464412f0d344246f%3A0x4e47f19c99b253b1!2zSMO4Z3Nrb2xlbiBpIMOYc3Rmb2xk!5e0!3m2!1sno!2sno!4v1700607162187!5m2!1sno!2sno" width="2000" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-        </section>
+        <span itemscope itemprop="hasMap" itemtype="https://schema.org/Map">            
+            <section class="map" aria-label="map">
+                <iframe  itemprop="url" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2047.1882765496962!2d11.350223011666714!3d59.129250226914905!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x464412f0d344246f%3A0x4e47f19c99b253b1!2zSMO4Z3Nrb2xlbiBpIMOYc3Rmb2xk!5e0!3m2!1sno!2sno!4v1700607162187!5m2!1sno!2sno" width="2000" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </section>
+        </span>
 
     </main>
     

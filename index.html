@@ -1,6 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <meta name="author" content="Robert Johannessen">
+    <meta name="description" content="The website to promote a great company, with amazing design and content">          
+    <meta name="keywords" content="Company, connections, visibillity, services, newsletter">
     <meta property="og:title" content="Charismatic homepage: first page with stunning layout and information about company and partners" />
     <meta property="og:url" content="https://itstud.hiof.no/~robertjo/eksamen/index.html" />
     <meta property="og:image" content="https://itstud.hiof.no/~robertjo/eksamen/img/calm_mountains.jpg" />
@@ -31,15 +34,18 @@
             </a>
 
             <nav class="flex_right">
-                <ul>
-                    <li>
-                        <a href="index.html" class="current" aria-current="page">Home</a>
+                <ul itemscope itemtype="http://schema.org/BreadcrumbList">
+                    <li itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem">
+                        <a itemprop="item" href="index.html" class="current" aria-current="page"><span itemprop="name">Home</span></a>
+                        <meta itemprop="position" content="1" />
                     </li>
-                    <li>
-                        <a href="products.html" aria-label="link to the products page">Products</a>
+                    <li itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem">
+                        <a itemprop="item" href="products.html" aria-label="link to the products page"><span itemprop="name">Products</span></a>
+                        <meta itemprop="position" content="2" />
                     </li>
-                    <li>
-                        <a href="about.html" aria-label="link to the about page">About</a>
+                    <li itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem">
+                        <a itemprop="item" href="about.html" aria-label="link to the about page"><span itemprop="name">About</span></a>
+                        <meta itemprop="position" content="3" />
                     </li>
                     <!-- Knapp som man kan trykke på fra https://www.w3schools.com/tags/tag_button.asp -->
                     <!-- Fikk feil på validator og måtte fikse at knappen ikke hadde a tag rundt seg: https://stackoverflow.com/questions/24837102/the-element-button-must-not-appear-as-a-descendant-of-the-a-element -->

@@ -1,6 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <meta name="author" content="Robert Johannessen">
+    <meta name="description" content="Products and jobs: See our portfolio and products on this site full of stunning images">
+    <meta name="keywords" content="portfolio, images, jobs">
     <meta property="og:title" content="The portfolio page: take a tour and look at our products and jobs with spectacular images" />
     <meta property="og:url" content="https://itstud.hiof.no/~robertjo/eksamen/products.html" />
     <meta property="og:image" content="https://itstud.hiof.no/~robertjo/eksamen/img/calm_mountains.jpg" />
@@ -31,15 +34,18 @@
             </a>
 
             <nav class="flex_right">
-                <ul>
-                    <li>
-                        <a href="index.html" aria-label="link to the home page">Home</a>
+                <ul itemscope itemtype="http://schema.org/BreadcrumbList">
+                    <li itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem"></li>>
+                        <a itemprop="item" href="index.html" aria-label="link to the home page"><span itemprop="name">Home</span></a>
+                        <meta itemprop="position" content="1" />
                     </li>
-                    <li>
-                        <a href="products.html" class="current" aria-current="page">Products</a>
+                    <li itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem"></li>>
+                        <a itemprop="item" href="products.html" class="current" aria-current="page"><span itemprop="name">Products</span></a>
+                        <meta itemprop="position" content="2" />
                     </li>
-                    <li>
-                        <a href="about.html" aria-label="link to the about page">About</a>
+                    <li itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem"></li>>
+                        <a itemprop="item" href="about.html" aria-label="link to the about page"><span itemprop="name">About</span></a>
+                        <meta itemprop="position" content="3" />
                     </li>
                     <!-- Knapp som man kan trykke på fra https://www.w3schools.com/tags/tag_button.asp -->
                     <li>

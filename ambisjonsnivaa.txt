@@ -1,19 +1,35 @@
 Ambisjonsnivå:
 
 
-Antagelser og tolkninger:
+Antagelser og tolkninger: 
+-Siden jeg er rimelig ny til html og css har mye av prosjektet kommet til live med å prøve og feile.  
+  Mye cowboy coding i inspect for å se hvordan ting flytter på seg.
+  
+-Startet hele prosjektet med å tegne opp skisser for hvordan strukturen og de semantiske taggene skulle være. 
+  Skrev så hele html delen før jeg justerte noe med css.
+  
+-Css delen tok lengst tid da jeg måtte lese endel fra det vi har gjort før i år, google og prøve og feile
+  med inspect. Det har blitt brukt mange dager og timer for å få til denne eksamens oppgaven.
+  
+-Siste A og B kravet av oppgaven tar også mye tid, med mye lesing av gammelt stoff og på internett.  Det er vel 
+  her man bruker mest tolkning av hva som er riktig bruk av tagger og semantikk. Igjen, mye lesing og dobbel sjekking 
+  av at ting er riktig når det gjelder alt fra meta data til aria og micro data.
 
 
 Kilder til bilder og annet:
 
 
--Knapp som man kan trykke på er hentet fra: https://www.w3schools.com/tags/tag_button.asp
+-Knapp som man kan trykke på:  
+  -https://www.w3schools.com/tags/tag_button.asp
+
 
 -mp4 filen: https://www.youtube.com/watch?v=IlRn1a38bec&ab_channel=AMWEBTECH
 -Fikk også hjelp med css til mp4 fra: https://www.youtube.com/watch?v=IlRn1a38bec&ab_channel=AMWEBTECH
   -Her har position: relative hjulpet med å plassere riktig uten at elementer påvirker hverandre. Videoen/bildet har fått position: absolute, slik at vi kan ha ovelappende elementer på hverandre.
 
+
 -Header bilde hentet fra: https://www.pexels.com/photo/green-mountains-889930/
+
 
 -Ikoner:
     https://fontawesome.com/icons/code?f=classic&s=solid
@@ -31,24 +47,34 @@ Kilder til bilder og annet:
 
 
 -Contact section har meste av koden fra:
-  -Oblig4 prosjekt som er igjen hentet fra: (https://www.youtube.com/watch?v=lLdzlLL33G8&ab_channel=GreatStack)"
+  -Oblig4 prosjekt som er igjen hjulpet av:  
+    -(https://www.youtube.com/watch?v=lLdzlLL33G8&ab_channel=GreatStack)"
 
+ 
  -Det store tekst området fikk jeg hjelp med fra: 
   -https://www.w3schools.com/tags/tag_textarea.asp
   -Her får jeg spesifisert hvor stort området skal
     være med cols og rows. Har fått gitt det en label som asossierer det med tekst feltet.
 
 
--Inline css på lengde i input feltene: https://www.w3schools.com/tags/att_input_size.asp
+-Validator feil på knapper med a tag, fikk hjelp fra:  
+  -https://stackoverflow.com/questions/24837102/the-element-button-must-not-appear-as-a-descendant-of-the-a-element
 
 
--Validator feil på knapper med a tag, fikk hjelp fra:  https://stackoverflow.com/questions/24837102/the-element-button-must-not-appear-as-a-descendant-of-the-a-element
+-Fant ut hvordan man kan bytte elementer i html med klasser og display:none;  : 
+  -https://stackoverflow.com/questions/27853884/media-queries-and-image-swapping
 
 
--Fant ut hvordan man kan bytte elementer i html med klasser og display:none;  : https://stackoverflow.com/questions/27853884/media-queries-and-image-swapping
+-Keyboard accesbility: Leste litt om dette på: 
+  -https://developer.mozilla.org/en-US/docs/Learn/Accessibility/WAI-ARIA_basics
 
--Keyboard accesbility: Leste litt om dette på:  https://developer.mozilla.org/en-US/docs/Learn/Accessibility/WAI-ARIA_basics
 
 -På aria-wai delen leste jeg meg frem til det meste på diverse sider itillegg til å bruke tips ai gav meg fra Bing:
   -https://developer.mozilla.org/en-US/docs/Learn/Accessibility/WAI-ARIA_basics
   -https://www.w3.org/TR/wai-aria-1.1/#usage_intro
+
+
+-Lærte litt om de viktigste Open Graph meta taggene på denne siden:  
+  -https://ahrefs.com/blog/open-graph-meta-tags/
+
+
