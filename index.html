@@ -13,7 +13,7 @@
 
 <body>
 
-    <div class="back_to_top">
+    <div class="back_to_top" aria-label="Back to top">
         <a href="#">
             <i class="fa-solid fa-circle-up"></i>
         </a>
@@ -23,13 +23,13 @@
         <section class="header_align">
             <!-- Hoved logo, som også fungerer som hjem-knapp som er viktig innhold på alle sider -->
             <a href="index.html">
-                <img src="img/logo1.png" alt="The company logo and home button">
+                <img src="img/logo1.png" alt="The company logo and home button" aria-label="Link to homepage">
             </a>
 
-            <nav class="flex_right" role="navigation">
+            <nav class="flex_right">
                 <ul>
                     <li>
-                        <a href="index.html" class="current">Home</a>
+                        <a href="index.html" class="current" aria-current="page">Home</a>
                     </li>
                     <li>
                         <a href="products.html">Products</a>
@@ -41,7 +41,7 @@
                     <!-- Fikk feil på validator og måtte fikse at knappen ikke hadde a tag rundt seg: https://stackoverflow.com/questions/24837102/the-element-button-must-not-appear-as-a-descendant-of-the-a-element -->
                     <li>
                         <form style="display: inline" action="about.html#contact" method="get">
-                            <button class="button">Contact</button>
+                            <button class="button" role="button">Contact</button>
                         </form>                          
                     </li>
                 </ul>
@@ -126,9 +126,9 @@
             
             <section>   
                 <label for="lab" hidden>Din epost</label>          
-                <input type="email" id="lab" name="email" placeholder="post@mail.com" required title="søkefelt">
+                <input type="email" id="lab" name="email" placeholder="post@mail.com" required title="søkefelt" aria-label="Enter mail">
                 <form style="display: inline" action="mailto:" method="get">
-                    <button class="button">Sign me up</button>
+                    <button class="button" role="button" aria-label="Sign up for newsletter" >Sign me up</button>
                 </form>                
             </section>        
         </section>
@@ -136,10 +136,10 @@
     
     <footer class="header_align">
         <a href="index.html">
-            <img src="img/logo1.png" alt="logo with link to homepage">            
+            <img src="img/logo1.png" alt="Company logo with home button" aria-label="Link to homepage">            
         </a>
         <p>Company copyright 2023</p>
-        <section>
+        <section aria-label="Social links">
             <a href="https://facebook.com">
                 <i class="fa-brands fa-facebook"></i>
             </a>

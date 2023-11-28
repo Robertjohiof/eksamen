@@ -12,7 +12,7 @@
 </head>
 <body>
     
-    <div class="back_to_top">
+    <div class="back_to_top" aria-label="back to top">
         <a href="#">
             <i class="fa-solid fa-circle-up"></i>
         </a>
@@ -23,7 +23,7 @@
         <section class="header_align">
             <!-- Hoved logo, som også fungerer som hjem-knapp som er viktig innhold på alle sider -->
             <a href="index.html">
-                <img src="img/logo1.png" alt="The company logo and home button">
+                <img src="img/logo1.png" alt="The company logo and home button" aria-label="Link to homepage">
             </a>
 
             <nav class="flex_right">
@@ -35,12 +35,12 @@
                         <a href="products.html">Products</a>
                     </li>
                     <li>
-                        <a href="about.html" class="current">About</a>
+                        <a href="about.html" class="current" aria-current="page">About</a>
                     </li>
                     <!-- Knapp som man kan trykke på fra https://www.w3schools.com/tags/tag_button.asp -->
                     <li>
                         <form style="display: inline" action="about.html#contact" method="get">
-                            <button class="button">Contact</button>
+                            <button class="button" role="button">Contact</button>
                         </form>
                     </li>
                 </ul>
@@ -58,7 +58,7 @@
                     </p>
 
                     <form style="display: inline" action="#contact" method="get">
-                        <button class="button">Get in touch with us</button>
+                        <button class="button" role="button">Get in touch with us</button>
                     </form>
             </article>
         </section>
@@ -113,18 +113,18 @@
                     <!-- inline css på lengde i input feltene: https://www.w3schools.com/tags/att_input_size.asp -->
                 <form>
                     <label for="name">Name:</label><br>
-                    <input type="text" id="name" name="name" placeholder="Ola Nordman.."><br>
+                    <input type="text" id="name" name="name" placeholder="Ola Nordman.." aria-label="Name"><br>
                     <label for="subject">Subject:</label><br>
-                    <input type="text" id="subject" name="subject" placeholder="Branding..">                    
+                    <input type="text" id="subject" name="subject" placeholder="Branding.." aria-label="Subject">                    
 
                     <!-- Stort tekst område har kode fra: https://www.w3schools.com/tags/tag_textarea.asp -->
                     <p><label for="Message">Message</label></p>
-                    <textarea id="Message" name="Message" rows="6" cols="60"></textarea>
+                    <textarea id="Message" name="Message" rows="6" cols="60" aria-label="Message"></textarea>
                     <br>
-                    <button class="button" type="submit">Send message</button>
+                    <button class="button" type="submit" role="button">Send message</button>
                   </form> 
             </article>
-            <article class="info">
+            <article class="info" >
                 <h3>Contact information</h3>
                 <p>
                     Lorem ipsum dolor sit amet consectetur adipiscing elit gravida justo euismod, augue aliquet interdum leo quis a laoreet convallis. Curabitur tellus elementum conubia fringilla, penatibus semper dictum, cursus malesuada tempor.
@@ -143,7 +143,7 @@
                 </div>
                 <br>
                 <!-- "mailto: fra https://www.w3schools.com/tags/tryit.asp?filename=tryhtml_link_mailto" -->
-                <div class="flex">
+                <div class="flex" aria-label="Mail">
                     <i class="fa-solid fa-envelope"></i>
                     <a href="mailto:postmottak@hiof.no">
                         <p>
@@ -154,7 +154,7 @@
             </article>
         </section>
         
-        <section class="map">
+        <section class="map" aria-label="map">
             <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2047.1882765496962!2d11.350223011666714!3d59.129250226914905!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x464412f0d344246f%3A0x4e47f19c99b253b1!2zSMO4Z3Nrb2xlbiBpIMOYc3Rmb2xk!5e0!3m2!1sno!2sno!4v1700607162187!5m2!1sno!2sno" width="2000" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
         </section>
 
@@ -163,10 +163,10 @@
 
     <footer class="header_align">
         <a href="index.html">
-            <img src="img/logo1.png" alt="logo with link to homepage">            
+            <img src="img/logo1.png" alt="Company logo with home button" aria-label="Link to homepage">            
         </a>
         <p>Company copyright 2023</p>
-        <section>
+        <section aria-label="Social links">
             <a href="https://facebook.com">
                 <i class="fa-brands fa-facebook"></i>
             </a>

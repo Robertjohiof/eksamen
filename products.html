@@ -12,7 +12,7 @@
 </head>
 <body>
     
-    <div class="back_to_top">
+    <div class="back_to_top" aria-label="Back to top">
         <a href="#">
             <i class="fa-solid fa-circle-up"></i>
         </a>
@@ -23,7 +23,7 @@
         <section class="header_align">
             <!-- Hoved logo, som også fungerer som hjem-knapp som er viktig innhold på alle sider -->
             <a href="index.html">
-                <img src="img/logo1.png" alt="The company logo and home button">
+                <img src="img/logo1.png" alt="The company logo and home button" aria-label="Link to homepage">
             </a>
 
             <nav class="flex_right">
@@ -32,7 +32,7 @@
                         <a href="index.html">Home</a>
                     </li>
                     <li>
-                        <a href="products.html" class="current">Products</a>
+                        <a href="products.html" class="current" aria-current="page">Products</a>
                     </li>
                     <li>
                         <a href="about.html">About</a>
@@ -56,7 +56,7 @@
 
     <main>        
         
-        <section class="explore_label">
+        <section class="explore_label" role="navigation" aria-label="navigate the main sections">
             <h2>Explore previous jobs</h2>            
             <a href="#branding">Branding</a>
             <a href="#design">Design</a>
@@ -114,10 +114,10 @@
 
     <footer class="header_align">
         <a href="index.html">
-            <img src="img/logo1.png" alt="logo with link to homepage">            
+            <img src="img/logo1.png" alt="Company logo with home button" aria-label="Link to homepage">            
         </a>
         <p>Company copyright 2023</p>
-        <section>
+        <section aria-label="Social links">
             <a href="https://facebook.com">
                 <i class="fa-brands fa-facebook"></i>
             </a>
