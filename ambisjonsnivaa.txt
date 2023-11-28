@@ -47,5 +47,8 @@ Kilder til bilder og annet:
 
 -Fant ut hvordan man kan bytte elementer i html med klasser og display:none;  : https://stackoverflow.com/questions/27853884/media-queries-and-image-swapping
 
+-Keyboard accesbility: Leste litt om dette på:  https://developer.mozilla.org/en-US/docs/Learn/Accessibility/WAI-ARIA_basics
 
-
+-På aria-wai delen leste jeg meg frem til det meste på diverse sider itillegg til å bruke tips ai gav meg fra Bing:
+  -https://developer.mozilla.org/en-US/docs/Learn/Accessibility/WAI-ARIA_basics
+  -https://www.w3.org/TR/wai-aria-1.1/#usage_intro
