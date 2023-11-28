@@ -32,10 +32,10 @@
                         <a href="index.html" class="current" aria-current="page">Home</a>
                     </li>
                     <li>
-                        <a href="products.html">Products</a>
+                        <a href="products.html" aria-label="link to the products page">Products</a>
                     </li>
                     <li>
-                        <a href="about.html">About</a>
+                        <a href="about.html" aria-label="link to the about page">About</a>
                     </li>
                     <!-- Knapp som man kan trykke på fra https://www.w3schools.com/tags/tag_button.asp -->
                     <!-- Fikk feil på validator og måtte fikse at knappen ikke hadde a tag rundt seg: https://stackoverflow.com/questions/24837102/the-element-button-must-not-appear-as-a-descendant-of-the-a-element -->
@@ -62,7 +62,7 @@
                 There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable.
             </p>
             <form style="display: inline" action="#our_services" method="get">
-                <button class="button">Read more about our services</button>
+                <button class="button" role="button" aria-label="link to our services">Read more about our services</button>
             </form>            
         </section>
     </header>
@@ -84,7 +84,7 @@
                     Lorem ipsum dolor sit amet consectetur adipiscing elit magna per augue aenean, taciti pharetra viverra eu ante sagittis ultrices molestie convallis mauris, dictumst morbi imperdiet fusce arcu sociis vel suspendisse sollicitudin a. Dictum ultricies inceptos faucibus lacus ornare vitae justo at.
                 </p>
                 <form style="display: inline" action="about.html" method="get">
-                    <button class="button_2">Read more about us</button>
+                    <button class="button_2" role="button" aria-label="link to the about page">Read more about us</button>
                 </form>
             </article>
         </section>
