@@ -26,14 +26,14 @@
         </a>
     </div>
     
-    <header>
+    <header itemscope itemtype="http://schema.org/WPHeader">
         <section class="header_align">
             <!-- Hoved logo, som også fungerer som hjem-knapp som er viktig innhold på alle sider -->
-            <a href="index.html">
-                <img src="img/logo1.png" alt="The company logo and home button" aria-label="Link to homepage">
+            <a href="index.html" itemprop="url">
+                <img src="img/logo1.png" alt="The company logo and home button" aria-label="Link to homepage" itemprop="logo">
             </a>
 
-            <nav class="flex_right">
+            <nav class="flex_right" itemprop="mainEntityOfPage" itemscope itemtype="http://schema.org/SiteNavigationElement">
                 <ul itemscope itemtype="http://schema.org/BreadcrumbList">
                     <li itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem">
                         <a itemprop="item" href="index.html" class="current" aria-current="page"><span itemprop="name">Home</span></a>
@@ -60,15 +60,18 @@
 
         <!-- Video html fra: https://www.w3schools.com/howto/howto_css_fullscreen_video.asp / https://www.youtube.com/watch?v=IlRn1a38bec&ab_channel=AMWEBTECH-->
         <!-- Fant ut hvordan man kan bytte elementer i html med klasser og display:none;  : https://stackoverflow.com/questions/27853884/media-queries-and-image-swapping -->
-        <section  class="video">
+        <section  class="video" itemscope itemtype="http://schema.org/VideoObject">
             <video class="background_mp4_1" autoplay muted loop>
                 <source src="img/mountains.mp4" type="video/mp4">
             </video>
+            <meta itemprop="name" content="Mountains">
+            <meta itemprop="uploadDate" content="2023-11-28T08:00:00+08:00">
+            <meta itemprop="thumbnailUrl" content="https://hiof.no/~robertjo/eksamen/img/calm_mountains.jpg">
 
             <img class="background_mp4_2" src="img/calm_mountains.jpg" alt="Background picture for header with mountains">
 
-            <h1 class="h1_center">Compeling headline</h1>
-            <p>
+            <h1 class="h1_center" itemprop="headline">Compeling headline</h1>
+            <p itemprop="description">
                 There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable.
             </p>
             <form style="display: inline" action="#our_services" method="get">
