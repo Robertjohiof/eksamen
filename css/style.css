@@ -134,8 +134,12 @@ nav ul{
     z-index: -1;
     top: 0;
     left: 0;
-    object-fit: cover;
-    
+    object-fit: cover;    
+}
+
+.overlay{
+    background-color: #ffffff46;
+    z-index: 2;
 }
 
 

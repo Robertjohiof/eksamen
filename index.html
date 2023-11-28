@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link rel="icon" type="image/x-icon" href="/img/favicon.png">
     <meta name="author" content="Robert Johannessen">
     <meta name="description" content="The website to promote a great company, with amazing design and content">          
     <meta name="keywords" content="Company, connections, visibillity, services, newsletter">
@@ -60,25 +61,27 @@
 
         <!-- Video html fra: https://www.w3schools.com/howto/howto_css_fullscreen_video.asp / https://www.youtube.com/watch?v=IlRn1a38bec&ab_channel=AMWEBTECH-->
         <!-- Fant ut hvordan man kan bytte elementer i html med klasser og display:none;  : https://stackoverflow.com/questions/27853884/media-queries-and-image-swapping -->
-        <section  class="video" itemscope itemtype="http://schema.org/VideoObject">
-            <video class="background_mp4_1" autoplay muted loop>
-                <source src="img/mountains.mp4" type="video/mp4">
-            </video>
-            <meta itemprop="name" content="Mountains">
-            <meta itemprop="uploadDate" content="2023-11-28T08:00:00+08:00">
-            <meta itemprop="thumbnailUrl" content="https://hiof.no/~robertjo/eksamen/img/calm_mountains.jpg">
+        <div class="overlay">
+            <section  class="video" itemscope itemtype="http://schema.org/VideoObject">
+                <video class="background_mp4_1" autoplay muted loop>
+                    <source src="img/mountains.mp4" type="video/mp4">
+                </video>
+                <meta itemprop="name" content="Mountains">
+                <meta itemprop="uploadDate" content="2023-11-28T08:00:00+08:00">
+                <meta itemprop="thumbnailUrl" content="https://hiof.no/~robertjo/eksamen/img/calm_mountains.jpg">
 
-            <!-- Her er bilde kun for pynt og blir derfor bare beskrevet som bakgrunn -->
-            <img class="background_mp4_2" src="img/calm_mountains.jpg" alt="Background picture for header with mountains">
+                <!-- Her er bilde kun for pynt og blir derfor bare beskrevet som bakgrunn -->
+                <img class="background_mp4_2" src="img/calm_mountains.jpg" alt="Background picture for header with mountains">
 
-            <h1 class="h1_center" itemprop="headline">Compeling headline</h1>
-            <p itemprop="description">
-                There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable.
-            </p>
-            <form style="display: inline" action="#our_services" method="get">
-                <button class="button" role="button" aria-label="link to our services">Read more about our services</button>
-            </form>            
-        </section>
+                <h1 class="h1_center" itemprop="headline">Compeling headline</h1>
+                <p itemprop="description">
+                    There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable.
+                </p>
+                <form style="display: inline" action="#our_services" method="get">
+                    <button class="button" role="button" aria-label="link to our services">Read more about our services</button>
+                </form>            
+            </section>
+        </div>
     </header>
 
     <main>        
