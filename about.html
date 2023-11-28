@@ -4,13 +4,14 @@
     <meta name="author" content="Robert Johannessen">
     <meta name="description" content="The about us page full of usefull information and links">          
     <meta name="keywords" content="links, map, about us, services, clients, contact">
-    <meta property="og:title" content="About us, is all about us, our services, where you can find us and so much more" />
-    <meta property="og:url" content="https://itstud.hiof.no/~robertjo/eksamen/about.html" />
-    <meta property="og:image" content="https://itstud.hiof.no/~robertjo/eksamen/img/logo1" />
-    <meta property="og:type" content="website" /> 
+    <meta property="og:title" content="About us, is all about us, our services, where you can find us and so much more">
+    <meta property="og:url" content="https://itstud.hiof.no/~robertjo/eksamen/about.html">
+    <meta property="og:image" content="https://itstud.hiof.no/~robertjo/eksamen/img/logo1">
+    <meta property="og:type" content="website"> 
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>About</title>
+    <link rel="icon" type="image/x-icon" href="img/favicon.png">
     <link rel="stylesheet" href="css/style.css" type="text/css">
     <script src="https://kit.fontawesome.com/6351096b01.js" crossorigin="anonymous"></script>
     <style>
@@ -19,8 +20,8 @@
 </head>
 <body>
     
-    <div class="back_to_top" aria-label="back to top">
-        <a href="#">
+    <div class="back_to_top" itemscope itemtype="https://schema.org/SiteNavigationElement">
+        <a href="#"  aria-label="navigation">
             <i class="fa-solid fa-circle-up"></i>
         </a>
     </div>
@@ -36,22 +37,22 @@
             <nav class="flex_right">
                 <ul itemscope itemtype="http://schema.org/BreadcrumbList">
                     <li itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem">
-                        <a itemprop="item" href="index.html" aria-label="link to the home page"><span itemprop="name">Home</span></a>
-                        <meta itemprop="position" content="1" />
+                        <a itemprop="item" href="index.html" class="li_font" aria-label="link to the home page"><span itemprop="name">Home</span></a>
+                        <meta itemprop="position" content="1">
                     </li>
                     <li itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem">
-                        <a itemprop="item" href="products.html" aria-label="link to the products page"><span itemprop="name">Products</span></a>
-                        <meta itemprop="position" content="2" />
+                        <a itemprop="item" href="products.html" class="li_font" aria-label="link to the products page"><span itemprop="name">Products</span></a>
+                        <meta itemprop="position" content="2">
                     </li>
                     <li itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem">
-                        <a itemprop="item" href="about.html" class="current" aria-current="page"><span itemprop="name">About</span></a>
-                        <meta itemprop="position" content="3" />
+                        <a itemprop="item" href="about.html" class="current li_font" aria-current="page"><span itemprop="name">About</span></a>
+                        <meta itemprop="position" content="3">
                     </li>
                     <!-- Knapp som man kan trykke på fra https://www.w3schools.com/tags/tag_button.asp -->
                     <li>
-                        <form style="display: inline" action="about.html#contact" method="get">
-                            <button class="button" role="button">Contact</button>
-                        </form>
+                        <a href="about.html#contact" class="button">
+                            Contact
+                        </a>                        
                     </li>
                 </ul>
             </nav>
@@ -59,7 +60,7 @@
         
         <!-- Bilde er hentet fra: https://www.pexels.com/photo/green-mountains-889930/ -->        
         <section  class="about_picture">
-            <img class="background_mp4" src="img/calm_mountains.jpg" alt="Background picture for header with mountains" itemprop="image">
+            <img class="background_mp4" src="img/calm_mountains.jpg" alt="Background picture for header with mountains">
             <article class="about_frame">
                     <p>Company name</p>
                     <h1>About Our Company</h1>
@@ -67,9 +68,9 @@
                         Lorem ipsum dolor sit amet consectetur adipiscing elit phasellus suspendisse ullamcorper odio diam, mattis nascetur luctus pulvinar egestas tempus lacinia sodales montes ante tellus magna, sociosqu vitae pharetra scelerisque bibendum mauris posuere aptent nisi primis lacus. Facilisis ante volutpat varius consequat tristique nulla litora, massa metus lacinia inceptos ac ullamcorper lobortis, viverra mus faucibus nostra sollicitudin rhoncus.
                     </p>
 
-                    <form style="display: inline" action="#contact" method="get">
-                        <button class="button" role="button" aria-label="link to contact section">Get in touch with us</button>
-                    </form>
+                    <a href="#contact" class="button" role="button" aria-label="link to contact section">
+                        Get in touch with us
+                    </a>                    
             </article>
         </section>
     </header>
@@ -133,7 +134,7 @@
                     <p><label for="Message">Message</label></p>
                     <textarea title="Write your message here" id="Message" name="Message" rows="6" cols="60" aria-label="Message"></textarea>
                     <br>
-                    <button class="button" type="submit" role="button">Send message</button>
+                    <button class="button" type="submit">Send message</button>
                   </form> 
             </article>
             <article class="info" itemscope itemtype="https://schema.org/Organization">
@@ -155,7 +156,7 @@
                 </div>
                 <br>
                 <!-- "mailto: fra https://www.w3schools.com/tags/tryit.asp?filename=tryhtml_link_mailto" -->
-                <div class="flex" aria-label="Mail">
+                <div class="flex">
                     <i class="fa-solid fa-envelope"></i>
                     <a href="mailto:postmottak@hiof.no">
                         <p>
@@ -166,11 +167,11 @@
             </article>
         </section>
         
-        <span itemscope itemprop="hasMap" itemtype="https://schema.org/Map">            
-            <section class="map" aria-label="map">
-                <iframe  itemprop="url" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2047.1882765496962!2d11.350223011666714!3d59.129250226914905!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x464412f0d344246f%3A0x4e47f19c99b253b1!2zSMO4Z3Nrb2xlbiBpIMOYc3Rmb2xk!5e0!3m2!1sno!2sno!4v1700607162187!5m2!1sno!2sno" width="2000" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-            </section>
-        </span>
+                    
+        <section class="map" aria-label="map">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2047.1882765496962!2d11.350223011666714!3d59.129250226914905!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x464412f0d344246f%3A0x4e47f19c99b253b1!2zSMO4Z3Nrb2xlbiBpIMOYc3Rmb2xk!5e0!3m2!1sno!2sno!4v1700607162187!5m2!1sno!2sno" width="2000" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </section>
+    
 
     </main>
     

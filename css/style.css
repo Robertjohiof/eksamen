@@ -53,9 +53,12 @@ nav ul{
 
 
 .flex_right ul li a{
-    text-decoration: underline #fff;
+    text-decoration: none;
     color: rgb(0, 0, 0);
-    margin: 0 5px;
+    margin: 0 5px;    
+}
+
+.li_font{
     font-size: 18px;
 }
 
@@ -257,8 +260,7 @@ nav ul{
     color: rgb(0, 0, 0);
     padding: 10px 25px;
     text-align: center;
-    text-decoration: none;
-    display: inline-block;
+    text-decoration: none;    
     font-size: 12px;
     font-weight: 800;
     margin: 4px 2px;
@@ -459,8 +461,12 @@ footer i{
 
 @media screen and (min-width: 760px) {
     nav ul{
-        display: block ruby;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        align-items: center;
     }
+    
 
     .header_align{
         width: 100%;

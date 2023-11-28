@@ -4,13 +4,14 @@
     <meta name="author" content="Robert Johannessen">
     <meta name="description" content="Products and jobs: See our portfolio and products on this site full of stunning images">
     <meta name="keywords" content="portfolio, images, jobs">
-    <meta property="og:title" content="The portfolio page: take a tour and look at our products and jobs with spectacular images" />
-    <meta property="og:url" content="https://itstud.hiof.no/~robertjo/eksamen/products.html" />
-    <meta property="og:image" content="https://itstud.hiof.no/~robertjo/eksamen/img/calm_mountains.jpg" />
-    <meta property="og:type" content="website" /> 
+    <meta property="og:title" content="The portfolio page: take a tour and look at our products and jobs with spectacular images">
+    <meta property="og:url" content="https://itstud.hiof.no/~robertjo/eksamen/products.html">
+    <meta property="og:image" content="https://itstud.hiof.no/~robertjo/eksamen/img/calm_mountains.jpg">
+    <meta property="og:type" content="website"> 
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Products</title>
+    <link rel="icon" type="image/x-icon" href="img/favicon.png">
     <link rel="stylesheet" href="css/style.css" type="text/css">
     <script src="https://kit.fontawesome.com/6351096b01.js" crossorigin="anonymous"></script>
     <style>
@@ -19,8 +20,8 @@
 </head>
 <body>
     
-    <div class="back_to_top" aria-label="Back to top">
-        <a href="#">
+    <div class="back_to_top" itemscope itemtype="https://schema.org/SiteNavigationElement">
+        <a href="#" aria-label="navigation">
             <i class="fa-solid fa-circle-up"></i>
         </a>
     </div>
@@ -36,22 +37,22 @@
             <nav class="flex_right">
                 <ul itemscope itemtype="http://schema.org/BreadcrumbList">
                     <li itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem">
-                        <a itemprop="item" href="index.html" aria-label="link to the home page"><span itemprop="name">Home</span></a>
-                        <meta itemprop="position" content="1" />
+                        <a itemprop="item" href="index.html" class="li_font" aria-label="link to the home page"><span itemprop="name">Home</span></a>
+                        <meta itemprop="position" content="1">
                     </li>
                     <li itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem">
-                        <a itemprop="item" href="products.html" class="current" aria-current="page"><span itemprop="name">Products</span></a>
-                        <meta itemprop="position" content="2" />
+                        <a itemprop="item" href="products.html" class="current li_font" aria-current="page"><span itemprop="name">Products</span></a>
+                        <meta itemprop="position" content="2">
                     </li>
                     <li itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem">
-                        <a itemprop="item" href="about.html" aria-label="link to the about page"><span itemprop="name">About</span></a>
-                        <meta itemprop="position" content="3" />
+                        <a itemprop="item" href="about.html" class="li_font" aria-label="link to the about page"><span itemprop="name">About</span></a>
+                        <meta itemprop="position" content="3">
                     </li>
                     <!-- Knapp som man kan trykke på fra https://www.w3schools.com/tags/tag_button.asp -->
                     <li>
-                        <form style="display: inline" action="about.html#contact" method="get">
-                            <button class="button">Contact</button>
-                        </form>
+                        <a href="about.html#contact" class="button">
+                            Contact
+                        </a>
                     </li>
                 </ul>
             </nav>
