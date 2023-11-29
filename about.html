@@ -20,11 +20,29 @@
 </head>
 <body>
     
-    <div class="back_to_top" itemscope itemtype="https://schema.org/SiteNavigationElement">
-        <a href="#"  aria-label="navigation">
-            <i class="fa-solid fa-circle-up"></i>
-        </a>
-    </div>
+    <!-- Tilbake til topp knapp: https://www.w3schools.com/howto/tryit.asp?filename=tryhow_js_scroll_to_top -->
+    <button onclick="topFunction()" id="myBtn" title="Go to top"><i class="fa-solid fa-circle-up"></i></button>
+    
+    <script>    
+    let mybutton = document.getElementById("myBtn");
+
+    // Dette gjør at knappen kommer til syne når man skroller ned
+    window.onscroll = function() {scrollFunction()};
+
+    function scrollFunction() {
+        if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+            mybutton.style.display = "block";
+        } else {
+            mybutton.style.display = "none";
+        }
+    }
+
+    // Her er funksjonen som gjør at man kommer opp til toppen ved å klikke
+    function topFunction() {
+        document.body.scrollTop = 0;
+        document.documentElement.scrollTop = 0;
+    }
+    </script>
 
     <header>                
 
@@ -122,8 +140,7 @@
         <section id="contact">
             <h2>Contact us</h2>
             <article>
-                <h3>Send us a message</h3>
-                    <!-- inline css på lengde i input feltene: https://www.w3schools.com/tags/att_input_size.asp -->
+                <h3>Send us a message</h3>                    
                 <form>
                     <label for="name">Name:</label><br>
                     <input type="text" id="name" name="name" placeholder="Ola Nordman.." aria-label="Name"><br>

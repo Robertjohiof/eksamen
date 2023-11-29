@@ -20,12 +20,29 @@
 </head>
 <body>
     
-    <div class="back_to_top" itemscope itemtype="https://schema.org/SiteNavigationElement">
-        <a href="#" aria-label="navigation">
-            <i class="fa-solid fa-circle-up"></i>
-        </a>
-    </div>
+    <!-- Tilbake til topp knapp: https://www.w3schools.com/howto/tryit.asp?filename=tryhow_js_scroll_to_top -->
+    <button onclick="topFunction()" id="myBtn" title="Go to top"><i class="fa-solid fa-circle-up"></i></button>
+    
+    <script>    
+    let mybutton = document.getElementById("myBtn");
 
+    // Dette gjør at knappen kommer til syne når man skroller ned
+    window.onscroll = function() {scrollFunction()};
+
+    function scrollFunction() {
+        if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+            mybutton.style.display = "block";
+        } else {
+            mybutton.style.display = "none";
+        }
+    }
+
+    // Her er funksjonen som gjør at man kommer opp til toppen ved å klikke
+    function topFunction() {
+        document.body.scrollTop = 0;
+        document.documentElement.scrollTop = 0;
+    }
+    </script>
     <header>                
 
         <section class="header_align">

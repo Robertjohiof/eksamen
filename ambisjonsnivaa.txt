@@ -14,6 +14,11 @@ Antagelser og tolkninger:
 -Siste A og B kravet av oppgaven tar også mye tid, med mye lesing av gammelt stoff og på internett.  Det er vel 
   her man bruker mest tolkning av hva som er riktig bruk av tagger og semantikk. Igjen, mye lesing og dobbel sjekking 
   av at ting er riktig når det gjelder alt fra meta data til aria og micro data.
+  -Sliter litt med at noe kode fungerer på Firefox som jeg har jobbet på hele prosjektet og noe ikke fungerer på Chrome osv.
+  Opp tilbake til toppen pilen legger seg riktig med FireFox, men ikke alltid på Chrome, men dette er forskjellig hver gang jeg tester.
+  Eneste løsningen på pilen var å hente hjelp fra w3schools. Ble litt site liten på siste dag, men det var den eneste versjonen
+  som fungerte ok på både Chrome og Firefox.
+
 
 
 Kilder til bilder og annet:
@@ -78,3 +83,5 @@ Kilder til bilder og annet:
   -https://ahrefs.com/blog/open-graph-meta-tags/
 
 
+-Tilbake til toppen knapp: 
+  -https://www.w3schools.com/howto/howto_js_scroll_to_top.asp
