@@ -555,19 +555,19 @@ footer i{
         font-weight: 800;
         margin: 4px 2px;
         cursor: pointer;
-        background-color: #000;
+        background-color: #252525;
     }
 
 
     .button:hover{        
         color: #e6bd43;        
-        background-color: #000;
+        background-color: #252525;
     }
 
 
     .explore_label a:hover{
         color: #e6bd43;
-        background-color: #000;
+        background-color: #252525;
     }
 
 
