@@ -49,6 +49,7 @@ nav ul{
     font-size: 18px;
 }
 
+
 .flex_right ul li{
     margin: 1rem 0 0 0;
 }
@@ -73,9 +74,11 @@ nav ul{
     padding: 5px 10px;
 }
 
+
 .h1_center{
     font-size: 32px;
 }
+
 
 .video{
     width: 100%;
@@ -86,11 +89,13 @@ nav ul{
     text-align: center;
 }
 
+
 .video h1{
     padding: 28px 0 15px 0;
     margin: 0 0 1rem 0;
 
 }
+
 
 .video p{
     margin: 0 5rem 3rem;
@@ -108,8 +113,6 @@ nav ul{
     object-fit: cover;
     padding: 1rem 0 0 0;
 }
-
-
 
 
 
@@ -149,8 +152,6 @@ nav ul{
     padding: 10rem 0 9rem 0;    
     font-weight: bolder;
 }
-
-
 
 
 .about_picture{
@@ -243,7 +244,6 @@ nav ul{
 }
 
 
-
 /* Knapp som man kan trykke på fra https://www.w3schools.com/tags/tag_button.asp */
 .button {
     border: none;
@@ -259,20 +259,11 @@ nav ul{
 }
 
 
-
-
-
-
-
-
-
-
-
-
 .center_margin{
     text-align: center;
     margin: 4rem 5rem;
 }
+
 
 .center_margin h2{
     margin: 0 0 2rem;
@@ -285,11 +276,13 @@ nav ul{
     margin: 0.5rem 0 0 0;
 }
 
+
 .section_one_two img{
     transition: transform .2s;
     max-width: 100%;
     max-height: 400px;
 }
+
 
 .grow:hover{
     transform: scale(1.1);
@@ -357,8 +350,6 @@ nav ul{
     justify-content: center;
     align-items: center;
     padding: 4rem 0 1.5rem;
-    /* margin: 0 0 2rem; */
-
 }
 
 .news input{
@@ -399,14 +390,12 @@ nav ul{
 }
 
 
-
 .map{
     display: flex;
     justify-content: center;
     padding: 0;
     width: 100%;
 }
-
 
 
 footer{
@@ -416,6 +405,7 @@ footer{
     color: #fff;
 }
 
+
 footer section a{
     display: inline-block;
     color: #fff;
@@ -423,9 +413,13 @@ footer section a{
     margin: 0.5rem;
 }
 
+
 footer i{
     font-size: 34px;
 }
+
+
+
 
 
 @media screen and (max-width: 799px){
@@ -443,9 +437,10 @@ footer i{
     .section_one_two article{
         margin: 1rem;
     }
-
-
 }
+
+
+
 
 
 
@@ -472,6 +467,7 @@ footer i{
         padding: 5px 10px;
     }
 
+
     .background_mp4_1{
         width: 100%;
         height: 100%;
@@ -482,6 +478,7 @@ footer i{
         object-fit: cover;
         display: block;
     }
+
 
     .background_mp4_2{
         display: none;
@@ -505,15 +502,13 @@ footer i{
     }
 
 
-
-
-
     .about_picture{        
         height: 424px;        
         text-align: initial;        
         padding: 0 0 0 60%;
 
     }
+
 
     .about_frame{
         padding: 0 1rem 1rem 1rem;
@@ -571,10 +566,10 @@ footer i{
     .info{
         margin: 0 0 5.5rem 0;
     }
-
-
-
 }
+
+
+
 
 
 @media screen and (min-width: 800px){
@@ -596,5 +591,4 @@ footer i{
     .section_one_two article p{
         margin: 0 0 1rem 0;
     }
-
 }
